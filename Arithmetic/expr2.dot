@@ -1,0 +1,19 @@
+digraph G {
+a [label = "a"];
+b [label = "b"];
+c [label = "+"];
+c -> a
+c -> b
+d [label = "c"];
+e [label = "d"];
+f [label = "-"];
+f -> d
+f -> e
+g [label = "*"];
+g -> c
+g -> f
+h [label = "e"];
+i [label = "+"];
+i -> g
+i -> h
+}
